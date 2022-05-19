@@ -1,6 +1,9 @@
 body {
     font-family: "Lucida Console", "Courier New", monospace;
     display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 .header,
@@ -30,7 +33,7 @@ a {
 .top-header {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: 950;
+    font-weight: 1000;
 }
 
 .top-text {
@@ -47,13 +50,36 @@ a {
     width: 100px;
 }
 
-img {
-    height: 100px;
-    width: 100px;
+.info img {
+    height: 150px;
+    width: 150px;
     border-radius: 5px;
+    border: 3px solid #3882F6;
 }
 
 .top-image img{
     height: 200px;
     width: 400px;
+}
+
+.middle-top-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 1000;
+}
+
+.middle-bottom {
+    background-color: #E5E7EB;
+}
+
+.middle-bottom-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-author {
+    color: #1F2937;
+    font-size: 26px;
+    font-weight: bold;
 }
