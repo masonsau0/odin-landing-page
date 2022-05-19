@@ -70,6 +70,7 @@ a {
 
 .middle-bottom {
     background-color: #E5E7EB;
+    padding: 60px 120px;
 }
 
 .middle-bottom-text {
@@ -82,4 +83,31 @@ a {
     color: #1F2937;
     font-size: 26px;
     font-weight: bold;
+}
+
+.bottom {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 40px;
+    margin: 60px;
+    border-radius: 5px;
+}
+
+.bottom-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.button-bottom {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.footer {
+    color: #F9FAF8;
+    padding: 36px;
 }
