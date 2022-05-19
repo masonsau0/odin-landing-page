@@ -55,7 +55,6 @@ a {
 .topinfo {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .top-header {
@@ -115,6 +114,7 @@ a {
 .info {
     width: 200px;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .middle-top-text {
@@ -123,28 +123,44 @@ a {
 }
 
 .middle-bottom {
+    display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
-    padding: 60px 120px;
+    justify-content: space-between;
+    padding: 100px 400px;
 }
 
 .middle-bottom-text {
+    display: flex;
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
+    font-weight: 0;
+
 }
 
 .quote-author {
+    display: flex;
     color: #1F2937;
     font-size: 26px;
     font-weight: bold;
+    justify-content: flex-end;
 }
 
 .bottom {
+    display: flex;
     background-color: #3882F6;
     color: #F9FAF8;
     padding: 40px;
-    margin: 60px;
+    margin: 100px 350px;
     border-radius: 5px;
+    justify-content: space-around ;
+    align-items: center;
+}
+
+.bottom-info {
+    display: flex;
+    flex-direction: column;
 }
 
 .bottom-header {
@@ -153,12 +169,17 @@ a {
 }
 
 .button-bottom {
+    display: flex;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     padding: 5px;
     border: 2px solid #F9FAF8;
     border-radius: 5px;
-    width: 100px;
+    height: 23px;
+    width: 110px;
+    margin-top: 16px;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
