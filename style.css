@@ -1,0 +1,28 @@
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    display: flex;
+}
+
+.header,
+.top,
+.footer {
+    background-color: #1F2937;
+}
+
+.header-text {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header-links {
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
