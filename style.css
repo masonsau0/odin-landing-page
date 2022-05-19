@@ -154,7 +154,7 @@ a {
     padding: 40px;
     margin: 100px 350px;
     border-radius: 5px;
-    justify-content: space-around ;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -177,12 +177,14 @@ a {
     border-radius: 5px;
     height: 23px;
     width: 110px;
-    margin-top: 16px;
     justify-content: center;
     align-items: center;
 }
 
 .footer {
+    display: flex;
     color: #F9FAF8;
-    padding: 36px;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
 }
