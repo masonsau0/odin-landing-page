@@ -86,8 +86,8 @@ a {
 }
 
 .info img {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border-radius: 5px;
     border: 3px solid #3882F6;
 }
@@ -97,10 +97,29 @@ a {
     width: 500px;
 }
 
+.middle-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 400px;
+}
+
 .middle-top-header {
+    display: flex;
     color: #1F2937;
     font-size: 36px;
     font-weight: 1000;
+    justify-content: center;
+    margin: 40px;
+}
+
+.info {
+    width: 200px;
+    text-align: center;
+}
+
+.middle-top-text {
+    color: grey;
+    font-size: 18px;
 }
 
 .middle-bottom {
